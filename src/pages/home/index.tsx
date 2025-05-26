@@ -39,6 +39,7 @@ export default function Home() {
         <Hero />
         <Wrapper>
           <ListCategories />
+          <div>opa</div>
         </Wrapper>
       </Layout>
     </div>

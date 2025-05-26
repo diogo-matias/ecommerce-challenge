@@ -13,7 +13,7 @@ export default function ListCategories() {
 
   function renderCategories() {
     return (
-      <div className="mt-12 flex gap-4">
+      <div className="mt-12 flex gap-4 flex-wrap">
         {categories.map((item, index) => {
           const variant = index === 0 ? "secondary" : "accent";
 
@@ -28,13 +28,13 @@ export default function ListCategories() {
   }
 
   return (
-    <div className="mt-10">
+    <div className="mt-10  pb-10  border-b border-gray_scale-60">
       <h1 className="text-[32px] text-secondary">
         Conheça as <b>famílias exclusivas</b> <br />
         da linha Orthopedic
       </h1>
       {renderCategories()}
-      <p className="w-[35vw] mt-8 mb-10">
+      <p className="lg:w-[35vw] md:w-[50vw] w-full mt-8">
         Família voltada para extrair os benefícios do Neoprene. Propriedades
         térmicas, compressivas e elásticas: são essas três propriedades que
         fazem do Neoprene uma ferramenta eficaz no tratamento e prevenção de
