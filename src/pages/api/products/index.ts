@@ -4,10 +4,9 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     if (req.method !== "GET") {
         return res.status(405).json({ message: "Método não permitido" });
     }
-
+    
     const {
         categoria = "geral",
-        tamanho = "M",
         itemsPerPage = "20",
         page = "1",
     } = req.query;
@@ -16,13 +15,9 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     const currentPage = parseInt(page as string, 10);
     const totalItems = 1000; // simulando banco grande
 
-    const allProducts = Array.from({ length: totalItems }).map((_, i) => ({
-        id: `${categoria}-${tamanho}-${i + 1}`,
-        name: `Produto ${i + 1} (${categoria})`,
-        price: Math.floor(Math.random() * 100) + 1,
-        category: categoria,
-        size: tamanho,
-    }));
+    const allProducts = Array.from({ length: totalItems }).map((_, i) => {
+        return 
+    });
 
     const startIndex = (currentPage - 1) * perPage;
     const endIndex = startIndex + perPage;

@@ -31,6 +31,7 @@ export default {
                 gray_scale: {
                     DEFAULT: "#F8F8F8",
                     "60": "#EBEBEB",
+                    "50": "#F8F8F8",
                 },
                 divider: {
                     DEFAULT: "#707372",
