@@ -4,6 +4,7 @@ import Hero from "./sections/Hero";
 import { useEffect, useState } from "react";
 import ListCategories from "./sections/ListCategories";
 import Wrapper from "@/components/Wrapper";
+import Products from "./sections/products";
 
 const raleway = Raleway({
   subsets: ["latin"],
@@ -39,7 +40,7 @@ export default function Home() {
         <Hero />
         <Wrapper>
           <ListCategories />
-          <div>opa</div>
+          <Products />
         </Wrapper>
       </Layout>
     </div>
