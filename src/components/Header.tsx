@@ -6,6 +6,7 @@ import Wrapper from "./Wrapper";
 import useWindowDimensions from "@/hooks/useWindowDimentions";
 import Sidebar from "./Sidebar";
 import { useState } from "react";
+import Link from "next/link";
 
 export type Option = {
     label: string;
@@ -15,19 +16,19 @@ export type Option = {
 const options: Option[] = [
     {
         label: "Produtos",
-        redirect: "",
+        redirect: "/",
     },
     {
         label: "Sobre nós",
-        redirect: "",
+        redirect: "/",
     },
     {
         label: "Contato",
-        redirect: "",
+        redirect: "/",
     },
     {
         label: "Catálogo",
-        redirect: "",
+        redirect: "/",
     },
 ];
 
@@ -43,7 +44,9 @@ export default function Header() {
                         {options.map((item) => {
                             return (
                                 <li key={item.label} className="cursor-pointer">
-                                    {item.label}
+                                    <Link href={item.redirect}>
+                                        {item.label}
+                                    </Link>
                                 </li>
                             );
                         })}

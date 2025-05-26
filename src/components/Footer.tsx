@@ -207,7 +207,7 @@ export default function Footer() {
                                 key={`${item.label}-${index}`}
                                 className="text-gray_scale-60 mt-2 font-normal"
                             >
-                                {item.label}
+                                <Link href={item.redirect}>{item.label}</Link>
                             </li>
                         ))}
                     </ul>

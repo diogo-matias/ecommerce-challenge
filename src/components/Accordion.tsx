@@ -21,11 +21,11 @@ export default function Accordion({ items }: AccordionPropTypes) {
         <div className="text-background flex flex-col gap-2">
             {items?.map((item: AccordionItem, index: number) => (
                 <div
-                    key={index}
-                    className="border-b border-b-divider"
+                    key={`${item.title}-${index}`}
+                    className="border-b border-b-divider last:border-none"
                     onClick={() => toggle(index)}
                 >
-                    <button className="w-full flex justify-between items-center px-4 py-3 text-left font-normal transition">
+                    <button className="w-full flex justify-between items-center px-4 py-3 text-left font-normal transition ">
                         {item.title}
                         <Image
                             className={`transform transition-transform duration-300 ${

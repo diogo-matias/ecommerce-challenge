@@ -1,4 +1,4 @@
-import { useState } from "react";
+import Link from "next/link";
 import { Option } from "./Header";
 import Logo from "./Logo";
 import Image from "next/image";
@@ -26,7 +26,7 @@ export default function Sidebar({ isOpen, onClose, options }: SidebarProps) {
                                 key={item.label}
                                 className="cursor-pointer py-4 px-5 hover:bg-primary-light hover:text-background transition-all duration-200"
                             >
-                                {item.label}
+                                <Link href={item.redirect}>{item.label}</Link>
                             </li>
                         );
                     })}
