@@ -28,7 +28,7 @@ export default function Accordion({
     setOpenIndex((prev) => (prev === index ? null : index));
   };
 
-  function renderContent(content: React.HTMLElementType, index: number) {
+  function renderContent(content: React.ReactNode, index: number) {
     if (!content) {
       return null;
     }
