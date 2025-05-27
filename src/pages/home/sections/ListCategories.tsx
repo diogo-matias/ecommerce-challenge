@@ -1,24 +1,40 @@
 import Button from "@/components/Button";
 
-export default function ListCategories() {
+type ListCategoryProps = {
+  selectedCategory: string;
+  fetchProducts: (page: string, category: string) => void;
+};
+
+export default function ListCategories({
+  selectedCategory,
+  fetchProducts,
+}: ListCategoryProps) {
   const categories = [
     "Hidrolight Neo",
     "Comfort Air",
     "Ortho Recovery",
     "Air Flex",
-    "Softline ",
-    "Foot Care ",
+    "Softline",
+    "Foot Care",
     "Lean",
   ];
+
+  async function handleClick(category: string) {
+    await fetchProducts("1", category);
+  }
 
   function renderCategories() {
     return (
       <div className="mt-12 flex gap-4 flex-wrap">
         {categories.map((item, index) => {
-          const variant = index === 0 ? "secondary" : "accent";
+          const variant = item === selectedCategory ? "secondary" : "accent";
 
           return (
-            <Button variant={variant} key={`${item}-${index}`}>
+            <Button
+              onClick={() => handleClick(item)}
+              variant={variant}
+              key={`${item}-${index}`}
+            >
               {item}
             </Button>
           );

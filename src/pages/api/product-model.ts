@@ -23,7 +23,7 @@ type Variant = {
     color: string;
 };
 
-type ExtraSection = {
+export type ExtraSection = {
     title: string;
     items: {
         label: string;
@@ -31,8 +31,34 @@ type ExtraSection = {
     }[];
 };
 
-const allowedInfos = [
+const allowedCategoriess = [
+    "Hidrolight Neo",
+    "Comfort Air",
+    "Ortho Recovery",
+    "Air Flex",
+    "Softline",
+    "Foot Care",
+    "Lean",
+];
+
+const allowedSku = [
+    "RO432",
+    "RO132",
+    "RO234",
+    "RO251",
+    "RO6541",
+]
+
+const tags = [
+    "Lançamento"
+]
+
+const allowedInfos: Product = [
     {
+        tag: "", // escolha um item dentro de tags
+        sku: "", // ESCOLHA UM ITEM DENTRO DE allowedSku
+        brand: "Orthopedic",
+        category: "", // escolha um item dentro de allowedCategoriess
         id: "5eefafb8-3cf1-4201-b8eb-36d7e45b2cbb",
         name: "Órtese Soft Curta com Polegar",
         description:
@@ -82,6 +108,35 @@ const allowedInfos = [
                 color: "#a83232",
             },
         ],
+                 extraSections: [
+        {
+            title: "Indicações e Instruções de Uso",
+            items: [
+                {
+                    label: "Indicações",
+                    content: `A Órtese Soft Curta com Polegar é indicada para imobilização e suporte do punho e polegar em casos de lesões, entorses, tendinites, artrites, artroses, pós-operatórios e outras condições que exijam restrição de movimento dessas articulações. Seu design anatômico e a presença de talas removíveis permitem o ajuste ideal para cada paciente, proporcionando conforto e segurança durante o uso. O fechamento do polegar e a membrana elástica facilitam a colocação, tornando o produto acessível para uso independente pelo paciente.`
+                },
+                {
+                    label: "Instruções de Uso",
+                    content: `Para utilizar a órtese, posicione a mão de modo que o polegar fique encaixado na membrana elástica. Ajuste as talas internas conforme a necessidade, garantindo que estejam bem posicionadas para oferecer o suporte adequado. Envolva o elástico aderente ao redor da articulação do punho, ajustando a compressão de acordo com a orientação médica. Certifique-se de que a órtese esteja confortável e não restrinja a circulação sanguínea. O produto pode ser utilizado tanto na mão direita quanto na esquerda, bastando ajustar as talas conforme o lado desejado. Para limpeza, recomenda-se lavar manualmente com sabão neutro e secar à sombra.`
+                }
+            ]
+        },
+        {
+            title: "Garantia",
+            items: [
+                {
+                    label: "Termos de Garantia",
+                    content: `Este produto possui garantia de 12 meses contra defeitos de fabricação, contados a partir da data de compra. A garantia cobre eventuais falhas nos materiais ou no processo de fabricação que comprometam o uso adequado da órtese. Não estão cobertos danos causados por mau uso, modificações não autorizadas, desgaste natural ou acidentes. Para acionar a garantia, é necessário apresentar a nota fiscal de compra e encaminhar o produto para avaliação técnica. Em caso de constatação de defeito de fabricação, a empresa se compromete a reparar ou substituir o produto sem custos adicionais ao consumidor.`
+                },
+                {
+                    label: "Recomendações",
+                    content: `Para garantir a durabilidade e a eficácia da órtese, siga rigorosamente as instruções de uso e conservação. Evite expor o produto a fontes de calor excessivo, umidade prolongada ou agentes químicos agressivos. Não utilize o produto sem orientação médica e, em caso de desconforto ou irritação, suspenda o uso e consulte um profissional de saúde.`
+                }
+            ]
+        }
+    ],
+        
     },
     {
         id: "5eefafb8-3cf1-4201-b8eb-36d7e45b2cab",
@@ -125,6 +180,34 @@ const allowedInfos = [
                 color: "#a83232",
             },
         ],
+                 extraSections: [
+        {
+            title: "Indicações e Instruções de Uso",
+            items: [
+                {
+                    label: "Indicações",
+                    content: `A Órtese Soft Curta com Polegar é indicada para imobilização e suporte do punho e polegar em casos de lesões, entorses, tendinites, artrites, artroses, pós-operatórios e outras condições que exijam restrição de movimento dessas articulações. Seu design anatômico e a presença de talas removíveis permitem o ajuste ideal para cada paciente, proporcionando conforto e segurança durante o uso. O fechamento do polegar e a membrana elástica facilitam a colocação, tornando o produto acessível para uso independente pelo paciente.`
+                },
+                {
+                    label: "Instruções de Uso",
+                    content: `Para utilizar a órtese, posicione a mão de modo que o polegar fique encaixado na membrana elástica. Ajuste as talas internas conforme a necessidade, garantindo que estejam bem posicionadas para oferecer o suporte adequado. Envolva o elástico aderente ao redor da articulação do punho, ajustando a compressão de acordo com a orientação médica. Certifique-se de que a órtese esteja confortável e não restrinja a circulação sanguínea. O produto pode ser utilizado tanto na mão direita quanto na esquerda, bastando ajustar as talas conforme o lado desejado. Para limpeza, recomenda-se lavar manualmente com sabão neutro e secar à sombra.`
+                }
+            ]
+        },
+        {
+            title: "Garantia",
+            items: [
+                {
+                    label: "Termos de Garantia",
+                    content: `Este produto possui garantia de 12 meses contra defeitos de fabricação, contados a partir da data de compra. A garantia cobre eventuais falhas nos materiais ou no processo de fabricação que comprometam o uso adequado da órtese. Não estão cobertos danos causados por mau uso, modificações não autorizadas, desgaste natural ou acidentes. Para acionar a garantia, é necessário apresentar a nota fiscal de compra e encaminhar o produto para avaliação técnica. Em caso de constatação de defeito de fabricação, a empresa se compromete a reparar ou substituir o produto sem custos adicionais ao consumidor.`
+                },
+                {
+                    label: "Recomendações",
+                    content: `Para garantir a durabilidade e a eficácia da órtese, siga rigorosamente as instruções de uso e conservação. Evite expor o produto a fontes de calor excessivo, umidade prolongada ou agentes químicos agressivos. Não utilize o produto sem orientação médica e, em caso de desconforto ou irritação, suspenda o uso e consulte um profissional de saúde.`
+                }
+            ]
+        }
+    ],
     },
     {
         id: "7eefafb8-3cf1-4201-b8eb-36d7e45b2cbb",
@@ -167,6 +250,34 @@ const allowedInfos = [
                 color: "#325ea8",
             },
         ],
+                 extraSections: [
+        {
+            title: "Indicações e Instruções de Uso",
+            items: [
+                {
+                    label: "Indicações",
+                    content: `A Órtese Soft Curta com Polegar é indicada para imobilização e suporte do punho e polegar em casos de lesões, entorses, tendinites, artrites, artroses, pós-operatórios e outras condições que exijam restrição de movimento dessas articulações. Seu design anatômico e a presença de talas removíveis permitem o ajuste ideal para cada paciente, proporcionando conforto e segurança durante o uso. O fechamento do polegar e a membrana elástica facilitam a colocação, tornando o produto acessível para uso independente pelo paciente.`
+                },
+                {
+                    label: "Instruções de Uso",
+                    content: `Para utilizar a órtese, posicione a mão de modo que o polegar fique encaixado na membrana elástica. Ajuste as talas internas conforme a necessidade, garantindo que estejam bem posicionadas para oferecer o suporte adequado. Envolva o elástico aderente ao redor da articulação do punho, ajustando a compressão de acordo com a orientação médica. Certifique-se de que a órtese esteja confortável e não restrinja a circulação sanguínea. O produto pode ser utilizado tanto na mão direita quanto na esquerda, bastando ajustar as talas conforme o lado desejado. Para limpeza, recomenda-se lavar manualmente com sabão neutro e secar à sombra.`
+                }
+            ]
+        },
+        {
+            title: "Garantia",
+            items: [
+                {
+                    label: "Termos de Garantia",
+                    content: `Este produto possui garantia de 12 meses contra defeitos de fabricação, contados a partir da data de compra. A garantia cobre eventuais falhas nos materiais ou no processo de fabricação que comprometam o uso adequado da órtese. Não estão cobertos danos causados por mau uso, modificações não autorizadas, desgaste natural ou acidentes. Para acionar a garantia, é necessário apresentar a nota fiscal de compra e encaminhar o produto para avaliação técnica. Em caso de constatação de defeito de fabricação, a empresa se compromete a reparar ou substituir o produto sem custos adicionais ao consumidor.`
+                },
+                {
+                    label: "Recomendações",
+                    content: `Para garantir a durabilidade e a eficácia da órtese, siga rigorosamente as instruções de uso e conservação. Evite expor o produto a fontes de calor excessivo, umidade prolongada ou agentes químicos agressivos. Não utilize o produto sem orientação médica e, em caso de desconforto ou irritação, suspenda o uso e consulte um profissional de saúde.`
+                }
+            ]
+        }
+    ],
     },
 
     {
@@ -258,6 +369,34 @@ const allowedInfos = [
                 color: "#a83232",
             },
         ],
+         extraSections: [
+        {
+            title: "Indicações e Instruções de Uso",
+            items: [
+                {
+                    label: "Indicações",
+                    content: `A Órtese Soft Curta com Polegar é indicada para imobilização e suporte do punho e polegar em casos de lesões, entorses, tendinites, artrites, artroses, pós-operatórios e outras condições que exijam restrição de movimento dessas articulações. Seu design anatômico e a presença de talas removíveis permitem o ajuste ideal para cada paciente, proporcionando conforto e segurança durante o uso. O fechamento do polegar e a membrana elástica facilitam a colocação, tornando o produto acessível para uso independente pelo paciente.`
+                },
+                {
+                    label: "Instruções de Uso",
+                    content: `Para utilizar a órtese, posicione a mão de modo que o polegar fique encaixado na membrana elástica. Ajuste as talas internas conforme a necessidade, garantindo que estejam bem posicionadas para oferecer o suporte adequado. Envolva o elástico aderente ao redor da articulação do punho, ajustando a compressão de acordo com a orientação médica. Certifique-se de que a órtese esteja confortável e não restrinja a circulação sanguínea. O produto pode ser utilizado tanto na mão direita quanto na esquerda, bastando ajustar as talas conforme o lado desejado. Para limpeza, recomenda-se lavar manualmente com sabão neutro e secar à sombra.`
+                }
+            ]
+        },
+        {
+            title: "Garantia",
+            items: [
+                {
+                    label: "Termos de Garantia",
+                    content: `Este produto possui garantia de 12 meses contra defeitos de fabricação, contados a partir da data de compra. A garantia cobre eventuais falhas nos materiais ou no processo de fabricação que comprometam o uso adequado da órtese. Não estão cobertos danos causados por mau uso, modificações não autorizadas, desgaste natural ou acidentes. Para acionar a garantia, é necessário apresentar a nota fiscal de compra e encaminhar o produto para avaliação técnica. Em caso de constatação de defeito de fabricação, a empresa se compromete a reparar ou substituir o produto sem custos adicionais ao consumidor.`
+                },
+                {
+                    label: "Recomendações",
+                    content: `Para garantir a durabilidade e a eficácia da órtese, siga rigorosamente as instruções de uso e conservação. Evite expor o produto a fontes de calor excessivo, umidade prolongada ou agentes químicos agressivos. Não utilize o produto sem orientação médica e, em caso de desconforto ou irritação, suspenda o uso e consulte um profissional de saúde.`
+                }
+            ]
+        }
+    ],
     },
 ];
 
@@ -275,11 +414,11 @@ export class RandomProduct {
     product: Product;
 
     constructor() {
-        const { name, description, attributes, variants, imageUrl } =
+        const { name, description, attributes, variants, imageUrl, extraSections, id } =
             this.getRandom(allowedInfos);
 
         this.product = {
-            id: this.generateUID(),
+            id: id,
             name: name,
             description: description,
             attributes: attributes,
@@ -289,6 +428,7 @@ export class RandomProduct {
             imageUrl: imageUrl,
             variants: variants,
             tag: this.oneInFiveChance() ? "Lançamento" : "",
+            extraSections: extraSections,
         };
     }
 

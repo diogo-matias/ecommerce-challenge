@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { getCachedProducts } from "./cache";
+import products from "./products.json";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
     if (req.method !== "GET") {
@@ -7,16 +7,15 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     }
 
     const {
-        category = "Hidrolight Neo",
-        itemsPerPage = "20",
+        category = "Comfort Air",
+        itemsPerPage = "9",
         page = "1",
     } = req.query;
 
     const perPage = parseInt(itemsPerPage as string, 10);
     const currentPage = parseInt(page as string, 10);
 
-    const cachedProducts = getCachedProducts();
-
+    const cachedProducts =products;
     const filteredProducts = category
         ? cachedProducts.filter(
               (p) =>
@@ -38,5 +37,6 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         itemsPerPage: perPage,
         totalPages,
         totalItems: filteredProducts.length,
+        category: category,
     });
 }

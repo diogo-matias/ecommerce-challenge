@@ -37,6 +37,7 @@ export default {
                     "50": "#F8F8F8",
                     "60": "#EBEBEB",
                     "70": "#D5D7D8",
+                    "80": "#AEB7B9",
                 },
                 divider: {
                     DEFAULT: "#707372",

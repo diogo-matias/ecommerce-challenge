@@ -1,0 +1,1173 @@
+[
+    {
+  "tag": "Lançamento",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "8a3c7b2e-2bfc-4a47-a08d-b5c4d2dfbbf1",
+    "name": "Órtese Soft Curta com Polegar",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "8a3c7b2e-2bfc-4a47-a08d-b5c4d2dfbbf2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "8a3c7b2e-2bfc-4a47-a08d-a1c4d2dfbbf2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "7a3c7b2e-2bfc-4a47-a08d-c5c4d2dfbbg2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "7a3c7bc3-2bfc-4cd7-a08d-c5c4d2dfbbg2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "9a3c7bc3-2efc-4dd7-a08d-c5c4d2dfbbg2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "7a3c7bc3-2bf2-4sc2-a08d-c5c4d2dfbbg2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "2a3c7jc3-2bfc-4cd7-a08d-c5c4d2dfbbg2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "7a3c7bc3-4bfc-dasd-a08d-c5c4d2dfbbg2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "7a3c7bc3-2bsc-cads-a08d-c5c4d2dfbbg2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "7a3c7bc3-2bfc-4cd7-a08d-cdasdasdbg2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "7a3c7bc3-2bfc-4cd7-a08d-casaasdasdbg2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "7a3c7bc3-2bfc-ds4cd7-a08d-cdasdasdbg2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "7a3c7bc3-2bfc-4cd7-a08d-casaasdasdbg2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+},
+{
+  "tag": "",
+  "sku": "RO132",
+  "brand": "Orthopedic",
+  "category": "Hidrolight Neo",
+  "id": "7a3c7bc3-dasd-ds4cd7-a08d-cdasdasdbg2",
+    "name": "Vamo",
+    "description":
+        "Órtese Soft Curta com Polegar é uma órtese desenvolvida para proporcionar imobilização e suporte ao punho e polegar, garantindo conforto e praticidade durante o uso. Confeccionada em neoprene plush, oferece excelente isolamento térmico e toque macio, tornando o uso prolongado mais agradável. Seu design anatômico conta com fechamento especial para o polegar e membrana elástica tipo bolso, facilitando a colocação pelo próprio paciente. As talas internas removíveis e ajustáveis permitem adaptação para diferentes necessidades, promovendo estabilidade e restrição de movimentos indesejados. O sistema de compressão com elástico aderente possibilita ajuste personalizado conforme orientação médica. Indicada para reabilitação, pós-operatório e prevenção de lesões, a Órtese Soft Curta com Polegar alia segurança, durabilidade e facilidade de higienização, sendo ideal para quem busca proteção eficiente e autonomia no cuidado ortopédico.",
+    "imageUrl": "com_polegar_2.png",
+  "attributes": [
+    {
+      "name": "Material",
+      "value": "Neoprene Reforçado"
+    },
+    {
+      "name": "Ajuste",
+      "value": "Tiras reguláveis com velcro"
+    },
+    {
+      "name": "Talas",
+      "value": "Tala interna removível"
+    },
+    {
+      "name": "Compressão",
+      "value": "Compressão terapêutica moderada"
+    },
+    {
+      "name": "Indicação",
+      "value": "Imobilização parcial do punho e polegar"
+    }
+  ],
+  "variants": [
+    {
+      "id": "456-preto",
+      "name": "Preto",
+      "color": "#000"
+    },
+    {
+      "id": "456-azul",
+      "name": "Azul",
+      "color": "#325ea8"
+    },
+    {
+      "id": "456-cinza",
+      "name": "Cinza",
+      "color": "#808080"
+    }
+  ],
+  "extraSections": [
+    {
+      "title": "Indicações e Instruções de Uso",
+      "items": [
+        {
+          "label": "Indicações",
+          "content": "Indicada para suporte terapêutico do punho e polegar em casos de tendinites, entorses leves, lesões musculares, e reabilitação. Oferece estabilização sem impedir totalmente o movimento, ideal para uso contínuo sob orientação médica."
+        },
+        {
+          "label": "Instruções de Uso",
+          "content": "Posicione a órtese com o polegar no encaixe indicado. Ajuste as tiras de velcro ao redor do punho até obter uma compressão confortável. Utilize a tala interna conforme recomendação do profissional de saúde. Pode ser usada na mão esquerda ou direita. Para higienização, lave à mão com sabão neutro e seque à sombra."
+        }
+      ]
+    },
+    {
+      "title": "Garantia",
+      "items": [
+        {
+          "label": "Termos de Garantia",
+          "content": "Garantia de 12 meses contra defeitos de fabricação a partir da data da compra. A garantia cobre falhas de materiais e fabricação. Não cobre danos por mau uso, desgaste natural ou alterações no produto."
+        },
+        {
+          "label": "Recomendações",
+          "content": "Evite exposição ao calor excessivo, umidade ou produtos químicos. Não utilize sem recomendação médica. Em caso de irritações ou desconforto, suspenda o uso e consulte um especialista."
+        }
+      ]
+    }
+  ]
+}
+
+]
