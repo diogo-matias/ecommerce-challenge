@@ -12,6 +12,17 @@ import { twMerge } from "tailwind-merge";
 import Presentation from "./sections/Presentation";
 import Accordions from "./sections/Accordions";
 import AnimatedCarousel from "@/components/AnimatedCarousel";
+import { Raleway, Roboto } from "next/font/google";
+
+const raleway = Raleway({
+  subsets: ["latin"],
+  variable: "--font-raleway",
+});
+const roboto = Roboto({
+  subsets: ["latin"],
+  variable: "--font-roboto",
+  weight: ["100", "300", "400", "500"],
+});
 
 function ProductImage({
   images,
@@ -183,19 +194,21 @@ export default function ProductPage() {
   ];
 
   return (
-    <Layout>
-      <Wrapper>
-        <div className="grid grid-cols-12 gap-7 mt-11 mb-11">
-          <ProductImage images={extraImages} name={product.name} />
-          <ProductInfos product={product} />
+    <div className={`${raleway.variable} ${roboto.variable}`}>
+      <Layout>
+        <Wrapper>
+          <div className="grid grid-cols-12 gap-7 mt-11 mb-11">
+            <ProductImage images={extraImages} name={product.name} />
+            <ProductInfos product={product} />
+          </div>
+          <YoutubeVideo videoId="_Nzt8-mTlSA" aspect="aspect-[1194/663]" />
+          <Presentation />
+          {product.extraSections && <Accordions product={product} />}
+        </Wrapper>
+        <div className="container mx-auto lg:mr-0 max-w-auto lg:max-w-[90vw] mb-10">
+          <AnimatedCarousel />
         </div>
-        <YoutubeVideo videoId="_Nzt8-mTlSA" aspect="aspect-[1194/663]" />
-        <Presentation />
-        {product.extraSections && <Accordions product={product} />}
-      </Wrapper>
-      <div className="container mx-auto lg:mr-0 max-w-auto lg:max-w-[90vw] mb-10">
-        <AnimatedCarousel />
-      </div>
-    </Layout>
+      </Layout>
+    </div>
   );
 }

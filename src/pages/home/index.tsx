@@ -4,7 +4,6 @@ import Hero from "./sections/Hero";
 import { useEffect, useState } from "react";
 import ListCategories from "./sections/ListCategories";
 import Wrapper from "@/components/Wrapper";
-// import Products from "./sections/Products";
 import { PaginationType } from "@/components/Pagination";
 import Products from "./sections/products";
 
@@ -56,13 +55,15 @@ export default function Home() {
             fetchProducts={fetchProducts}
             selectedCategory={selectedCategory}
           />
-          {products && (
-            <Products
-              fetchProducts={fetchProducts}
-              paginationInfo={paginationInfo}
-              products={products}
-            />
-          )}
+          <div className="flex items-start justify-start">
+            {products && (
+              <Products
+                fetchProducts={fetchProducts}
+                paginationInfo={paginationInfo}
+                products={products}
+              />
+            )}
+          </div>
         </Wrapper>
       </Layout>
     </div>

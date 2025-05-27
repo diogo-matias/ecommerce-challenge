@@ -7,6 +7,7 @@ import useWindowDimensions from "@/hooks/useWindowDimentions";
 import Sidebar from "./Sidebar";
 import { useState } from "react";
 import Link from "next/link";
+import SearchInput from "./SearchInput";
 
 export type Option = {
   label: string;
@@ -35,12 +36,21 @@ const options: Option[] = [
 export default function Header() {
   const { isMobile } = useWindowDimensions();
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
+  const [shouldOpenSearchInput, setShouldOpenSearchInput] = useState(false);
 
   function renderMainOptions() {
+    if (shouldOpenSearchInput) {
+      return (
+        <div className="w-[50%] mx-10">
+          <SearchInput handleClose={() => setShouldOpenSearchInput(false)} />
+        </div>
+      );
+    }
+
     return (
       <div className="flex gap-6 items-center">
         <nav>
-          <ul className="flex gap-6">
+          <ul className="flex gap-6 ">
             {options.map((item) => {
               return (
                 <li key={item.label} className="cursor-pointer">
@@ -50,7 +60,7 @@ export default function Header() {
             })}
           </ul>
         </nav>
-        <SearchButton />
+        <SearchButton onClick={() => setShouldOpenSearchInput(true)} />
       </div>
     );
   }
@@ -58,7 +68,7 @@ export default function Header() {
   function renderTalkToUs() {
     return (
       <div className="flex gap-5 items-center">
-        <Button>Fale Conosco</Button>
+        <Button className="text-nowrap">Fale Conosco</Button>
         {renderFlag()}
       </div>
     );
