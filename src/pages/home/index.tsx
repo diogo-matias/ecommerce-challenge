@@ -4,45 +4,64 @@ import Hero from "./sections/Hero";
 import { useEffect, useState } from "react";
 import ListCategories from "./sections/ListCategories";
 import Wrapper from "@/components/Wrapper";
-import Products from "./sections/products";
+import Products from "./sections/Products";
+import { PaginationType, PaginationPropTypes } from "@/components/Pagination";
 
 const raleway = Raleway({
-  subsets: ["latin"],
-  variable: "--font-raleway",
+    subsets: ["latin"],
+    variable: "--font-raleway",
 });
 const roboto = Roboto({
-  subsets: ["latin"],
-  variable: "--font-roboto",
-  weight: ["100", "300", "400", "500"],
+    subsets: ["latin"],
+    variable: "--font-roboto",
+    weight: ["100", "300", "400", "500"],
 });
 
 export default function Home() {
-  const [products, setProducts] = useState();
+    const [products, setProducts] = useState();
+    const [paginationInfo, setPaginationInfo] = useState<PaginationType>({
+        currentPage: 1,
+        totalPages: 10,
+    });
 
-  useEffect(() => {
-    fetchProducts();
-  }, []);
+    const [selectedCategory, setSelectedCategory] = useState("Hidrolight Neo");
 
-  const fetchProducts = async () => {
-    console.log("ENTROU NO LOG");
+    useEffect(() => {
+        fetchProducts();
+    }, [selectedCategory]);
 
-    const res = await fetch("/api/products?itemsPerPage=30");
-    const data = await res.json();
-    setProducts(data);
+    useEffect(() => {
+        fetchProducts();
+    }, []);
 
-    console.log("dataaa", data);
-  };
+    const fetchProducts = async (page = "1") => {
+        const res = await fetch(`/api/products?itemsPerPage=9&page=${page}`);
+        const data = await res.json();
 
-  return (
-    <div className={`${raleway.variable} ${roboto.variable}`}>
-      {products?.[0]?.name}
-      <Layout>
-        <Hero />
-        <Wrapper>
-          <ListCategories />
-          <Products />
-        </Wrapper>
-      </Layout>
-    </div>
-  );
+        setProducts(data.products);
+        setPaginationInfo({
+            currentPage: data.currentPage,
+            totalPages: data.totalPages,
+        });
+
+        console.log("dataaa", data);
+    };
+
+    return (
+        <div className={`${raleway.variable} ${roboto.variable}`}>
+            <Layout>
+                <Hero />
+                <Wrapper className="">
+                    <ListCategories />
+                    {products && (
+                        <Products
+                            fetchProducts={fetchProducts}
+                            paginationInfo={paginationInfo}
+                            products={products}
+                        />
+                    )}
+                </Wrapper>
+            </Layout>
+        </div>
+    );
 }

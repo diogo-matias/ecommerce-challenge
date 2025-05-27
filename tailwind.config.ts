@@ -22,16 +22,21 @@ export default {
                     DEFAULT: "#80276C",
                     light: "#A34891",
                     dark: "#5C1D4E",
+                    translucid: "#9A1A8099",
                 },
                 accent: {
                     DEFAULT: "#9A1A80",
                     light: "#B2489A",
                     dark: "#70125C",
                 },
+                neutral_black: {
+                    DEFAULT: "#121212",
+                },
                 gray_scale: {
                     DEFAULT: "#F8F8F8",
-                    "60": "#EBEBEB",
                     "50": "#F8F8F8",
+                    "60": "#EBEBEB",
+                    "70": "#D5D7D8",
                 },
                 divider: {
                     DEFAULT: "#707372",
