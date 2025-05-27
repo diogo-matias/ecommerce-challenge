@@ -192,9 +192,10 @@ export default function ProductPage() {
         <YoutubeVideo videoId="_Nzt8-mTlSA" aspect="aspect-[1194/663]" />
         <Presentation />
         {product.extraSections && <Accordions product={product} />}
-        <AnimatedCarousel />
       </Wrapper>
-      <div className="w-full  flex justify-end pr-4 sm:pr-6 lg:pr-8"></div>
+      <div className="container mx-auto lg:mr-0 max-w-auto lg:max-w-[90vw] mb-10">
+        <AnimatedCarousel />
+      </div>
     </Layout>
   );
 }

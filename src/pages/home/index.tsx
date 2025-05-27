@@ -34,7 +34,7 @@ export default function Home() {
 
   const fetchProducts = async (page = "1", category = "Hidrolight Neo") => {
     const res = await fetch(
-      `/api/products?itemsPerPage=3&page=${page}&category=${category}`
+      `/api/products?itemsPerPage=9&page=${page}&category=${category}`
     );
     const data = await res.json();
 
