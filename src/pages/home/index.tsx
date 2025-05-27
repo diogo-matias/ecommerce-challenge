@@ -8,64 +8,64 @@ import { PaginationType } from "@/components/Pagination";
 import Products from "./sections/products";
 
 const raleway = Raleway({
-  subsets: ["latin"],
-  variable: "--font-raleway",
+    subsets: ["latin"],
+    variable: "--font-raleway",
 });
 const roboto = Roboto({
-  subsets: ["latin"],
-  variable: "--font-roboto",
-  weight: ["100", "300", "400", "500"],
+    subsets: ["latin"],
+    variable: "--font-roboto",
+    weight: ["100", "300", "400", "500"],
 });
 
 export default function Home() {
-  const [products, setProducts] = useState();
-  const [paginationInfo, setPaginationInfo] = useState<PaginationType>({
-    currentPage: 1,
-    totalPages: 10,
-    totalItems: 10,
-  });
-
-  const [selectedCategory, setSelectedCategory] = useState("Hidrolight Neo");
-
-  useEffect(() => {
-    fetchProducts();
-  }, []);
-
-  const fetchProducts = async (page = "1", category = "Hidrolight Neo") => {
-    const res = await fetch(
-      `/api/products?itemsPerPage=9&page=${page}&category=${category}`
-    );
-    const data = await res.json();
-
-    setProducts(data.products);
-    setPaginationInfo({
-      currentPage: data.currentPage,
-      totalPages: data.totalPages,
-      totalItems: data?.totalItems,
+    const [products, setProducts] = useState();
+    const [paginationInfo, setPaginationInfo] = useState<PaginationType>({
+        currentPage: 1,
+        totalPages: 10,
+        totalItems: 10,
     });
-    setSelectedCategory(data.category);
-  };
 
-  return (
-    <div className={`${raleway.variable} ${roboto.variable}`}>
-      <Layout>
-        <Hero />
-        <Wrapper className="">
-          <ListCategories
-            fetchProducts={fetchProducts}
-            selectedCategory={selectedCategory}
-          />
-          <div className="flex items-start justify-start">
-            {products && (
-              <Products
-                fetchProducts={fetchProducts}
-                paginationInfo={paginationInfo}
-                products={products}
-              />
-            )}
-          </div>
-        </Wrapper>
-      </Layout>
-    </div>
-  );
+    const [selectedCategory, setSelectedCategory] = useState("Hidrolight Neo");
+
+    useEffect(() => {
+        fetchProducts();
+    }, []);
+
+    const fetchProducts = async (page = "1", category = "Hidrolight Neo") => {
+        const res = await fetch(
+            `/api/products?itemsPerPage=9&page=${page}&category=${category}`
+        );
+        const data = await res.json();
+
+        setProducts(data.products);
+        setPaginationInfo({
+            currentPage: data.currentPage,
+            totalPages: data.totalPages,
+            totalItems: data?.totalItems,
+        });
+        setSelectedCategory(data.category);
+    };
+
+    return (
+        <div className={`${raleway.variable} ${roboto.variable}`}>
+            <Layout>
+                <Hero />
+                <Wrapper className="">
+                    <ListCategories
+                        fetchProducts={fetchProducts}
+                        selectedCategory={selectedCategory}
+                    />
+                    <div className="flex items-start justify-center lg:justify-start">
+                        {products && (
+                            <Products
+                                fetchProducts={fetchProducts}
+                                paginationInfo={paginationInfo}
+                                products={products}
+                            />
+                        )}
+                    </div>
+                </Wrapper>
+            </Layout>
+        </div>
+    );
 }
