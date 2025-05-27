@@ -27,7 +27,7 @@ export default function Hero() {
                                 <h1 className="font-bold relative inline-block md:text-5xl text-4xl text-secondary tracking-[0.4rem]">
                                     ORTHOPEDIC
                                     <Image
-                                        className="absolute top-[-.5em] right-[-.5em]"
+                                        className="absolute top-[-.6em] right-[-.6em]"
                                         src={"/title-element.svg"}
                                         width={132}
                                         height={31}
