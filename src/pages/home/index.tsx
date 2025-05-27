@@ -42,7 +42,7 @@ export default function Home() {
     setPaginationInfo({
       currentPage: data.currentPage,
       totalPages: data.totalPages,
-      totalItems: data.totalItems,
+      totalItems: data?.totalItems,
     });
     setSelectedCategory(data.category);
   };

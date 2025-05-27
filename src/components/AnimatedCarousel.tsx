@@ -60,10 +60,6 @@ const products = [
   },
 ];
 
-function formatPrice(price: number) {
-  return price.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
-}
-
 export default function AnimatedCarousel() {
   const banner = useRef<HTMLDivElement>(null);
   const [itemWidth, setItemWidth] = useState(0);

@@ -17,11 +17,11 @@ export default function Pagination({
 }: PaginationPropTypes) {
   const { pagination } = getPaginationArray(currentPage, totalPages);
 
-  function handleClick(page) {
-    fetchProducts(page);
+  function handleClick(page: string | number) {
+    fetchProducts(page.toString());
   }
 
-  function renderItem(item) {
+  function renderItem(item: number | string) {
     const isSelected = currentPage == item;
     const isSelectItem = item === "select1" || item === "select2";
 

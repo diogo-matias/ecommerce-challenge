@@ -10,7 +10,6 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         totalPages: 10,
 
         itemsPerPage: 10,
-        // totalItems: filteredProducts.length,
         totalItems: 10,
     }
 

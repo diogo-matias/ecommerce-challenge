@@ -165,7 +165,7 @@ export default function Products({
       <div className="flex justify-between items-center mb-6 gap-3 flex-wrap">
         <div className="flex gap-5 items-center">
           <span className="px-2 py-3 bg-gray_scale/50 rounded-[10px] font-bold">
-            {paginationInfo.totalItems} Produtos
+            {paginationInfo?.totalItems} Produtos
           </span>
           <SearchButton />
           {renderFilterButton()}

@@ -52,7 +52,7 @@ function ProductTitle({ name, category }: { name: string; category: string }) {
   );
 }
 
-function ProductColors({ variants }: { variants?: Variant[] }) {
+function ProductColors({ variants }: { variants?: any[] }) {
   if (!variants?.length) return null;
   return (
     <div className="flex items-center">

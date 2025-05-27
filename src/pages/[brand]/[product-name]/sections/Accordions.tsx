@@ -1,5 +1,5 @@
 import Accordion, { AccordionItem } from "@/components/Accordion";
-import { ExtraSection, Product } from "@/pages/api/product-model";
+import { Product } from "@/pages/api/product-model";
 
 type AccordionsPropsTypes = {
   product: Product;
