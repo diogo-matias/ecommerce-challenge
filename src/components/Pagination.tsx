@@ -19,7 +19,9 @@ export default function Pagination() {
         paginationInfo.currentPage,
         paginationInfo.totalPages
     );
-    const currentCategory = useAppSelector((state) => state.ecommerce.category);
+    const currentCategory = useAppSelector(
+        (state: RootState) => state.ecommerce.category
+    );
     const dispatch = useAppDispatch();
 
     function handlePagination(page: string | number) {
