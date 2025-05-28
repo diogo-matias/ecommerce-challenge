@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { EcommerceActions } from "@/store/modules/ecommerce";
 import { RootState } from "@/store";
+import { Product } from "@/pages/api/product-model";
 
 type SearchInputPropTypes = {
     handleClose: () => void;
@@ -30,7 +31,7 @@ export default function SearchInput({ handleClose }: SearchInputPropTypes) {
             ></input>
             <SearchButton onClick={handleClose} />
             <div className="absolute z-20 w-[90%] min-h-[30vh] max-h-[20vh] overflow-y-auto overflow-hidden bottom-[-30vh] ">
-                {products.map((item) => {
+                {products.map((item: Product) => {
                     return (
                         <div key={`${item.id}`}>
                             <Link
