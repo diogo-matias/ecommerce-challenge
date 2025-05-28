@@ -12,7 +12,7 @@ export type PaginationPropTypes = PaginationType;
 
 export default function Pagination() {
     const paginationInfo = useAppSelector(
-        (state) => state.ecommerce.paginationInfo
+        (state: any) => state.ecommerce.paginationInfo
     );
     const { pagination } = getPaginationArray(
         paginationInfo.currentPage,
