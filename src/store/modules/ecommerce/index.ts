@@ -1,9 +1,10 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { StateType } from "./types";
+import { Product } from "@/pages/api/product-model";
 
 export const getAllProducts = createAsyncThunk(
     "@ecommerce/getAllProducts",
-    async (payload: { page: string; category: strring }) => {
+    async (payload: { page: string; category: string }) => {
         const { page, category } = payload;
 
         const res = await fetch(
@@ -18,9 +19,12 @@ export const getAllProducts = createAsyncThunk(
 
 const initialState: StateType = {
     products: [],
-    currentPage: 1,
-    totalPages: 0,
-    totalItems: 0,
+    filteredProductList: [],
+    paginationInfo: {
+        currentPage: 0,
+        totalPages: 0,
+        totalItems: 0,
+    },
     category: "",
     filter: {
         filters: {
@@ -36,7 +40,13 @@ const EcommerceSlice = createSlice({
     name: "@products",
     initialState: initialState,
     reducers: {
-        filter(state, action) {},
+        filterByName(state, action: PayloadAction<string>) {
+            const search = action.payload.toLowerCase();
+            state.filteredProductList = state.products.filter(
+                (product: Product) =>
+                    product.name.toLowerCase().includes(search)
+            );
+        },
     },
     extraReducers: ({ addCase }) => {
         addCase(getAllProducts.fulfilled, (state, { payload }) => {
@@ -48,6 +58,7 @@ const EcommerceSlice = createSlice({
                 totalPages: payload?.totalPages,
             };
 
+            state.filteredProductList = payload?.products;
             state.category = payload?.category;
         });
         // addCase(getOneProducts.fulfilled, (state, { payload }) => {

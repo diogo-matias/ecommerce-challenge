@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import { useAppDispatch, useAppSelector } from "@/hooks/redux";
 import { EcommerceActions } from "@/store/modules/ecommerce";
+import Image from "next/image";
 
 const categories = [
     "Hidrolight Neo",
@@ -33,14 +34,26 @@ export default function ListCategories() {
                 {categories.map((item, index) => {
                     const variant =
                         item === selectedCategory ? "secondary" : "accent";
+                    const icon =
+                        item === selectedCategory
+                            ? "/r-white.svg"
+                            : "/r-pink.svg";
 
                     return (
                         <Button
+                            className="relative"
                             onClick={() => handleClick(item)}
                             variant={variant}
                             key={`${item}-${index}`}
                         >
                             {item}
+                            <Image
+                                className="absolute top-1 right-1"
+                                src={icon}
+                                alt="a"
+                                width={10}
+                                height={10}
+                            />
                         </Button>
                     );
                 })}

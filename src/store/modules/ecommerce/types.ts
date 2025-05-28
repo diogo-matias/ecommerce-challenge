@@ -18,6 +18,7 @@ export type FiltersType = {
 
 export type StateType = {
     products: Product[];
+    filteredProductList: Product[];
     paginationInfo: {
         currentPage: number;
         totalPages: number;

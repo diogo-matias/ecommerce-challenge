@@ -1,12 +1,13 @@
 import Accordion from "@/components/Accordion";
 import Button from "@/components/Button";
-import Pagination, { PaginationType } from "@/components/Pagination";
+import Pagination from "@/components/Pagination";
 import ProductCard from "@/components/ProductCard";
 import SearchButton from "@/components/SearchButton";
+import SearchInput from "@/components/SearchInput";
 import { useAppSelector } from "@/hooks/redux";
 import { Product } from "@/pages/api/product-model";
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 type ProductsPropsType = {
     products: Product[];
@@ -75,6 +76,8 @@ export default function Products({ products }: ProductsPropsType) {
     const paginationInfo = useAppSelector(
         (state) => state.ecommerce.paginationInfo
     );
+
+    const [shouldOpenSearchInput, setShouldOpenSearchInput] = useState(false);
 
     useEffect(() => {
         console.log("products.products", products);
@@ -173,28 +176,42 @@ export default function Products({ products }: ProductsPropsType) {
 
     function renderSummary() {
         return (
-            <div className="flex justify-between items-center mb-6 gap-3 flex-wrap">
-                <div className="flex gap-5 items-center">
-                    <span className="px-2 py-3 bg-gray_scale/50 rounded-[10px] font-bold">
-                        {paginationInfo?.totalItems} Produtos
-                    </span>
-                    <SearchButton />
-                    {renderFilterButton()}
-                </div>
-                <div>
-                    <Button>
-                        <span className="flex gap-1">
-                            <span className="hidden md:block">Baixar</span>
-                            <span className="hidden sm:block">Catálogo</span>
-                            <Image
-                                src={"/download.svg"}
-                                width={16}
-                                height={16}
-                                alt="download-catalog"
-                            ></Image>
+            <div>
+                <div className="flex justify-between items-center mb-6 gap-3 flex-wrap">
+                    <div className="flex gap-5 items-center">
+                        <span className="px-2 py-3 bg-gray_scale/50 rounded-[10px] font-bold">
+                            {paginationInfo?.totalItems} Produtos
                         </span>
-                    </Button>
+
+                        {!shouldOpenSearchInput && (
+                            <SearchButton
+                                onClick={() => setShouldOpenSearchInput(true)}
+                            />
+                        )}
+                        {renderFilterButton()}
+                    </div>
+                    <div>
+                        <Button>
+                            <span className="flex gap-1">
+                                <span className="hidden md:block">Baixar</span>
+                                <span className="hidden sm:block">
+                                    Catálogo
+                                </span>
+                                <Image
+                                    src={"/download.svg"}
+                                    width={16}
+                                    height={16}
+                                    alt="download-catalog"
+                                ></Image>
+                            </span>
+                        </Button>
+                    </div>
                 </div>
+                {shouldOpenSearchInput && (
+                    <SearchInput
+                        handleClose={() => setShouldOpenSearchInput(false)}
+                    />
+                )}
             </div>
         );
     }
