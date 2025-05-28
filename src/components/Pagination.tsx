@@ -1,4 +1,5 @@
 import { useAppDispatch, useAppSelector } from "@/hooks/redux";
+import { RootState } from "@/store";
 import { EcommerceActions } from "@/store/modules/ecommerce";
 import { getPaginationArray } from "@/utils/getPaginationArray";
 
@@ -12,7 +13,7 @@ export type PaginationPropTypes = PaginationType;
 
 export default function Pagination() {
     const paginationInfo = useAppSelector(
-        (state: any) => state.ecommerce.paginationInfo
+        (state: RootState) => state.ecommerce.paginationInfo
     );
     const { pagination } = getPaginationArray(
         paginationInfo.currentPage,
