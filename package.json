@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "TSC_COMPILE_ON_ERROR=true next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -16,6 +16,7 @@
     "next": "15.1.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
     "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
