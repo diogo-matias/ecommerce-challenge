@@ -49,12 +49,6 @@ O objetivo deste projeto é entregar uma base sólida para um e-commerce moderno
 
 ---
 
-## 🧪 Testes
-
-O projeto já conta com exemplos de testes unitários utilizando **Jest** e **React Testing Library**, cobrindo renderização de componentes, fluxo de busca e exibição de produtos.
-
----
-
 ## 💡 Diferenciais e Qualidade
 
 - **Código limpo e organizado**, fácil de entender e manter.
