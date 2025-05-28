@@ -6,6 +6,7 @@ import SearchButton from "@/components/SearchButton";
 import SearchInput from "@/components/SearchInput";
 import { useAppSelector } from "@/hooks/redux";
 import { Product } from "@/pages/api/product-model";
+import { RootState } from "@/store";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -74,7 +75,7 @@ const exampleFilters: Filter[] = [
 
 export default function Products({ products }: ProductsPropsType) {
     const paginationInfo = useAppSelector(
-        (state) => state.ecommerce.paginationInfo
+        (state: RootState) => state.ecommerce.paginationInfo
     );
 
     const [shouldOpenSearchInput, setShouldOpenSearchInput] = useState(false);

@@ -4,6 +4,7 @@ import { useAppDispatch, useAppSelector } from "@/hooks/redux";
 import Image from "next/image";
 import Link from "next/link";
 import { EcommerceActions } from "@/store/modules/ecommerce";
+import { RootState } from "@/store";
 
 type SearchInputPropTypes = {
     handleClose: () => void;
@@ -12,7 +13,7 @@ type SearchInputPropTypes = {
 export default function SearchInput({ handleClose }: SearchInputPropTypes) {
     const [inputValue, setInputValue] = useState("");
     const products = useAppSelector(
-        (state) => state.ecommerce.filteredProductList
+        (state: RootState) => state.ecommerce.filteredProductList
     );
     const dispatch = useAppDispatch();
 

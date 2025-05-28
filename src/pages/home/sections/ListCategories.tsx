@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import { useAppDispatch, useAppSelector } from "@/hooks/redux";
+import { RootState } from "@/store";
 import { EcommerceActions } from "@/store/modules/ecommerce";
 import Image from "next/image";
 
@@ -16,7 +17,7 @@ const categories = [
 export default function ListCategories() {
     const dispatch = useAppDispatch();
     const selectedCategory = useAppSelector(
-        (state) => state.ecommerce.category
+        (state: RootState) => state.ecommerce.category
     );
 
     function handleClick(category = "Hidrolight Neo") {

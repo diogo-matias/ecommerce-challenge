@@ -7,6 +7,7 @@ import Wrapper from "@/components/Wrapper";
 import Products from "./sections/products";
 import { useAppDispatch, useAppSelector } from "@/hooks/redux";
 import { EcommerceActions } from "@/store/modules/ecommerce";
+import { RootState } from "@/store";
 
 const raleway = Raleway({
     subsets: ["latin"],
@@ -21,7 +22,7 @@ const roboto = Roboto({
 export default function Home() {
     const dispatch = useAppDispatch();
     const products = useAppSelector(
-        (state) => state.ecommerce.filteredProductList
+        (state: RootState) => state.ecommerce.filteredProductList
     );
 
     function callApi(page = "1", category = "Hidrolight Neo") {
