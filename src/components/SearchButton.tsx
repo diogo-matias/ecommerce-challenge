@@ -37,6 +37,7 @@ export default function SearchButton({ onClick }: SearchButtonPropTypes) {
 
   return (
     <button
+      aria-label="search-button"
       onClick={onClick}
       className="flex items-center justify-center rounded-full w-9 h-9 bg-gray_scale "
     >
